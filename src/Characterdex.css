@@ -1,6 +1,7 @@
 .Characterdex {
     width: 50%;
     float: left;
+    min-width: 300px;
 }
 
 .Characterdex-cards {

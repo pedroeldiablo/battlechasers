@@ -10,7 +10,9 @@ class Charactercard extends Component {
         return (
             <div className="Charactercard">
                 <h1>{this.props.name}</h1>
-                <img src={imgSrc}  alt={this.props.name} />
+                <div className="Charactercard-profile">
+                    <img src={imgSrc}  alt={this.props.name} />
+                </div>
                 <div className="Charactercard-stats">
                     <h2>{this.props.weapon}</h2>
                     <h3>Power:</h3>
