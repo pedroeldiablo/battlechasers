@@ -1,11 +1,11 @@
 import React from 'react';
-import Charactercard from './Charactercard';
+import Characterdex from './Characterdex';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Charactercard />
+      <Characterdex />
     </div>
   );
 }
