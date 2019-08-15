@@ -1,11 +1,11 @@
 import React from 'react';
-import Characterdex from './Characterdex';
+import Versusbattle from './ Versusbattle';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Characterdex />
+      <Versusbattle />
     </div>
   );
 }

@@ -18,6 +18,8 @@ class Characterdex extends Component {
         return (
             <div className="Characterdex">
                 <h1>BattleChasers</h1>
+                <p>Combined strength {this.props.combinedStrengths}</p>
+                <p>{this.props.isWinner ? "Winner" : "LOSER"}</p>
                 <div className="Characterdex-cards">
                     {this.props.battlechasers.map((c) => (
                     <Charactercard id={c.id} name={c.name} weapon={c.weapon} powers={c.powers} skill={c.skill}/>
